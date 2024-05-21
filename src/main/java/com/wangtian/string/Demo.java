@@ -75,7 +75,7 @@ public class Demo {
                 int pool = Integer.parseInt(str.charAt(i) + "");
 
                 for (int j = 0; j <= pool; j++) {
-                    aloneString += str.charAt(i + 1);
+                    aloneString += str.charAt(i + 1+100);
                 }
             }
             aloneString += "_";
